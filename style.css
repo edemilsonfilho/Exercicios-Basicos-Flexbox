@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bloco-1 {
+    width: 50%;
+    height: 200px;
+    background-color: #e74c3c;
+}
+
+.bloco-2 {
+    width: 50%;
+    height: 200px;
+    background-color: #2ecc71;
+}
