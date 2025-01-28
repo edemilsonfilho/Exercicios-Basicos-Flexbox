@@ -5,4 +5,60 @@
 
 .container {
     display: flex;
+    flex-direction: column;
+
+}
+
+.primeira-linha {
+    display: flex;
+}
+
+.bloco-1 {
+    height: 50px;
+    width: 50px;
+    background-color: #fd9644;
+}
+
+.bloco-2 {
+    height: 50px;
+    width: 100px;
+    background-color: #26de81;
+}
+
+.segunda-linha {
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-3 {
+    height: 100px;
+    width: 200px;
+    ;
+    background-color: #2bcbba;
+}
+
+.terceira-linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco {
+    height: 50px;
+    width: 50px;
+}
+
+.bloco-4 {
+    background-color: #eb3b5a;
+}
+
+.bloco-5 {
+    background-color: #45aaf2;
+}
+
+.bloco-6 {
+    background-color: #a55eea;
+}
+
+.bloco-7 {
+    background-color: #fed330;
 }
